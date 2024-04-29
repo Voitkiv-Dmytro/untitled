@@ -1,0 +1,58 @@
+html{
+    height: 100%;
+    width: 100%;
+}
+* {
+    box-sizing: border-box;
+    cursor: url(https://i.imgur.com/bzdNjDu.png), auto;
+}
+
+body {
+    font-family: "Prompt", sans-serif;
+    background-color: #f2f2f2;
+    color: #000000;
+    font-size: 60px;
+}
+
+li {
+    padding: 0;
+    margin: 0;
+    line-height: 66px;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+}
+
+li:hover {
+    animation: discotext 0.15s infinite;
+}
+
+ul {
+    list-style: none;
+    display: inline-block;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+}
+
+@keyframes discotext {
+    0% {
+        color: #9400d3;
+    }
+    16% {
+        color: #0000ff;
+    }
+    32% {
+        color: #00ff00;
+    }
+    48% {
+        color: #ffff00;
+    }
+    64% {
+        color: #ff7f00;
+    }
+    80% {
+        color: #ff0000;
+    }
+}
